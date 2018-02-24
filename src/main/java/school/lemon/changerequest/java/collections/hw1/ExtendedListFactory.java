@@ -12,6 +12,6 @@ public final class ExtendedListFactory {
      * @return instance of ExtendedList
      */
     public static <E> ExtendedList<E> create() {
-        return null;
+        return new ExtendedListImpl<E>();
     }
 }
